@@ -1,0 +1,51 @@
+.pr_1 {
+    background-image: url(../assets/background-image\ 18.42.02\ 18.42.02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_1{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 100vh;
+
+ .main_1_logo {
+    img{
+        animation-name: rot;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        width: 63px;
+    }
+    @keyframes rot {
+        from {
+            transform: rotate(0deg);
+        }
+        to {
+            transform: rotate(360deg);
+        }
+    }
+ }
+ .h1 {
+    text-align: center;
+    font-family: $oswald_font;
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 64px;
+color: $white_color;
+padding: 20px;
+ }
+ .h3 {
+    font-family: $source_font;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+text-align: center;
+color: $grey2;
+padding: 60px;
+ }
+}
